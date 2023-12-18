@@ -18,9 +18,9 @@ if(randomTurn2===0){
 
 
         // document.querySelector("h1").innerHTML=""
-document.querySelector("#player1_turn").setAttribute("src",`images/dice`+randomTurn1+`.png`);
+document.querySelector("#player1_turn").setAttribute("src",`dice`+randomTurn1+`.png`);
 
-document.querySelector("#player2_turn").setAttribute("src",`images/dice`+randomTurn2+`.png`);
+document.querySelector("#player2_turn").setAttribute("src",`dice`+randomTurn2+`.png`);
 
 if(randomTurn1 > randomTurn2){
     document.querySelector("h1").innerHTML = "Player1 Win Congratulations..!!";
